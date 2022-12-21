@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="Utf-8"><!--編碼格式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--此行程式碼可以讓網頁在不同的裝置顯示不亂掉-->
+
+
+    <title>background postition calc</title>
+<!--<style>
+    /*我是CSS的註解方式*/
+    .emText { color:red;}/*英文句點後面的名字可以自訂*/
+    .linda { color: #fcba03;} 
+    .mary {color:green;} /*可以設定多種屬性*/
+    .paul {color:black;}
+    .yi{background-color: #fcba03;}
+    #yyy{color: blueviolet;}/*#為ID的意思*/
+    h1,h2,h3,h4,h5{
+        font-family:"Noto sans TC",sans-serif;color: rgb(66, 216, 104);
+    }/*html的標籤文字字型及顏色選擇,
+    */
+    ul,p,a,span,li,label{ 
+    font-family: 'Open Sans', sans-serif;  color:pink; 
+     }/*指定的標籤都可以使用通樣的顏色*/
+
+
+
+     * {color:red;}/*星號得符號為全部套用選擇*/
+
+
+
+
+
+
+</style>-->
+
+
+<style>
+    div {color:black;} 
+    div[title] {color:red;} 
+    div[title=fishbecat] {color:green;} 
+    div[title~=fishbecat’s] {color:blue;}
+    div{ 
+    background : rgb(162, 206, 118); 
+    width : 200px; 
+    height : 200px; 
+    display:inline-block;
+    position: relative;
+    top: 400px;
+    left: 200px;
+
+
+
+
+    }
+
+
+
+
+    
+</style>
+
+</head>
+<body>
+    <p class="emText">我是 emText</p> 
+    <p class='linda mary paul'>123</p><!--可以把多個放在一起但只會以最後的選項執行，把多個放在一起是為了多個不同屬性的執行
+        ，當同屬性時以最後的為優先顯示-->
+    <p class='linda'>123</p> 
+    <p class='linda'>123</p> 
+    <p id="yyy">ID為紫色</p>
+    <h1>我是標題h1</h1>
+    <li><span> 
+        <a href="portfolio.html"  
+       target="_blank">See my portfolio</a>  </span></li>
+
+       <ul>ddd</ul>
+       <li>
+        1.222
+       </li>
+       <li>
+        2...
+       </li>
+       <h6>沒有指定格式的一律會被*號通用格式</h6>
+        <div> 此區塊會套⽤⿊⾊</div> 
+        <div title="blog"> 此區塊會套⽤紅⾊</div> <div title="fishbecat"> 此區塊會套⽤綠⾊ </div> 
+        <div title="fishbecat’s blog">此區塊會套⽤藍⾊</div>
+        <div>b</div>
+        <div>ba
+
+        </div>
+
+        <<div>
+            <p>123</p>
+            </div>
+            <div>
+            <p>123</p>
+            </div>
+            <a>AAA</a>
+            <a>AAA</a>
+            div{display:
+
+
+    
+        
+</body>
+    
+
+
+
+
+
+</html>
