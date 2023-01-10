@@ -284,3 +284,16 @@ header nav img{
 	    margin-bottom: 18px;
 	}
 }
+.back1{
+	padding-top:250px;
+	width:100%;
+	height:100%;
+	background-image:url(pictures/e2.jpg);
+		}
+
+.back2{
+	padding-top: 250px;
+	width:100%;
+	height:100%;
+	background-image:url(https://png.pngtree.com/background/20210715/original/pngtree-snowflake-christmas-tree-gift-christmas-decoration-border-blue-background-picture-image_1280524.jpg);
+}
